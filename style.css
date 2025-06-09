@@ -1,34 +1,37 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fff8dc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff8e1;
+  color: #333;
+  text-align: center;
+  padding: 40px;
 }
 
-.container {
-  text-align: center;
-  background: #fff;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+h1 {
+  color: #ff9800;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 18px;
+  background-color: #ff9800;
+  color: white;
   border: none;
-  border-radius: 8px;
-  background-color: #f9c000;
+  padding: 12px 24px;
+  font-size: 1rem;
   cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #ffda00;
+  background-color: #e68900;
 }
 
-.blague-box {
+p {
+  font-size: 1.2rem;
   margin-top: 20px;
-  font-size: 20px;
+}
+
+strong {
+  color: #555;
 }
